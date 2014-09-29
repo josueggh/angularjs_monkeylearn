@@ -6,7 +6,7 @@ monkeyApp = angular.module('monkeyApp',['ngMonkeylearn'] );
 monkeyApp.config([ '$monkeyProvider', function( $monkeyProvider) {
 
   //Set your token
-  $monkeyProvider.setToken( 'd9046ad91abf604e8f9225290723fa085029f155' );
+  $monkeyProvider.setToken( 'YOUR API KEY HER' );
 
   /* 
    * Set the available methods in your account
