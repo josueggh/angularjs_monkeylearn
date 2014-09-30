@@ -15,7 +15,7 @@ Simply include it after AngularJS
     <script type="text/javascript" src="monkeylearn.provider.js"></script>
     
 
-After create your Monkey Learn Account, the first step is get your API Tokem. You cand find it if you go to the next URL :  [https://app.monkeylearn.com/accounts/user/settings/](https://app.monkeylearn.com/accounts/user/settings/).
+After create your Monkey Learn Account, the first step is get your API Token. You can find it if you go to the next URL :  [https://app.monkeylearn.com/accounts/user/settings/](https://app.monkeylearn.com/accounts/user/settings/).
 
 ###Configure
 
@@ -40,12 +40,13 @@ You should set your API Token and your available modules, the sctructure of the 
     }]);
     
 The **KEY** of your modules can be found in the URL or in the API Section of the specific module.
+Take into account, that in the case of public modules, you must first install the modules in your account.
 
 ###Implement
 
 The primary method is **classifyText** and receive two parameters. 
 
-The first one is the *method* to use, in this case the script will do a Lang detection, indicated by the previous alias **'lang_detection_v1'**.
+The first one is the *method* to use, in this case the script will do language detection, indicated by the previous alias **'lang_detection_v1'**.
 
 The second is the text to classify.
 
